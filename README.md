@@ -23,7 +23,6 @@ Voici les étapes qu'on doit couvrir :
 
 
 ## 2. Architecture du projet
-
 ```bash
 MLOps/
 │
@@ -35,5 +34,22 @@ MLOps/
 │
 ├── config.py                    # chemins principaux
 │
+├── traitement.py                # traitement des images (croc, resize 64x64)
+├── annotation.py                # annotation des données 
+│
+├── multiprocess.py                      # doit permettre de voir 
+├── test.py                      # doit permettre de voir 
+│
+├── requirements.txt             # dépendances
+│
 └── README.md
 ```
+
+## 3. Organisation
+
+
+## 4. Dataset
+
+
+## 5. Déroulé des scripts
+
